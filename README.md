@@ -1,6 +1,19 @@
 `pyrmsynth` - Python based RM Synthesis code including RMCLEAN
 ==============================================================
 
+*This version*
+*Updated on:* 2018-08-22
+
+This is a hacked version of the original PyRMSynth created by Mike Bell. It has been created for profiling the original program across different environments as part of the [H2020 AENEAS project](aeneas2020.eu).
+
+This version:
+
+ - Uses a hacked version of the numpy memmap function so that it can be run using environments in VirtualBox (see [this post](https://stackoverflow.com/questions/18420473/invalid-argument-for-read-write-mmap) to understand why)
+ - Provides a decorated version to be run with [line_profiler](https://pypi.org/project/line_profiler/) and [memory_profiler](https://pypi.org/project/memory_profiler/).
+ 
+
+==============================================================
+
 *Current version:* 1.3.0
 *Updated on:* 2015-06-22
 
