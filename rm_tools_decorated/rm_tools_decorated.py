@@ -33,7 +33,7 @@ import math
 from sys import stdout
 import grid_tools as G
 #import pylab
-from memory_profiler import profile
+#from memory_profiler import profile
 
 VERSION = '1.2.1'
 
