@@ -10,7 +10,7 @@ This version:
  - Uses a hacked version of the numpy memmap function so that it can be run using environments in VirtualBox (see [this post](https://stackoverflow.com/questions/18420473/invalid-argument-for-read-write-mmap) to understand why)
  - Provides a decorated version to be run with [line_profiler](https://pypi.org/project/line_profiler/) and [memory_profiler](https://pypi.org/project/memory_profiler/).
  
-
+Recipes for building Singularity containers using this code can be found [here](https://www.singularity-hub.org/collections/1459).
 
 
 
