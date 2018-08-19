@@ -2,10 +2,9 @@ from distutils.core import setup
 from distutils.extension import Extension
 from Cython.Distutils import build_ext
 import numpy
-#include_gsl_dir = "/usr/include/"
-#lib_gsl_dir = "/usr/lib/"
-include_gsl_dir = "/opt/local/include/"
-lib_gsl_dir = "/opt/local/lib/"
+
+include_gsl_dir = "/usr/include/"
+lib_gsl_dir = "/usr/lib/"
 
 VERSION = '1.2.1'
 
