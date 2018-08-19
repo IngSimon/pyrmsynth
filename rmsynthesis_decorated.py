@@ -44,6 +44,7 @@ import pylab
 from pywcs import WCS
 
 import rm_tools_decorated as R
+import memmap2 as mmap2
 
 VERSION = '1.3.0'
 
